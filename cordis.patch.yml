@@ -1,0 +1,7 @@
+# Merged into the dsh profile when this package is installed.
+# `id` must match `export const name` in src/index.ts.
+- insert:
+    - id: wander
+      name: dsh-wander
+      config:
+        dataDir: !!js dshHomePath('wander')
